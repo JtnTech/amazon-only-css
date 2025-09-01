@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(36, 32, 32);
+        }
+
+        h1{
+            text-align: center;
+            margin:50px;
+            color: aqua;
+        }
+        .container{
+            margin: auto;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* align-content: space-evenly; */
+            width: 80%;
+            height: 300px;
+            border: 2px solid white;
+        }
+        .container div{
+            width: 100px;
+            border-radius: 10px;
+            height: 100px;
+            border: 2px solid white;
+        }
+
+        .box3{
+            flex-grow: 0.5;
+            align-self: flex-end;
+            background-color: aquamarine;        }
+    </style>
+</head>
+<body>
+    <h1>FLEX PALYGROUND</h1>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+    </div>
+</body>
+</html>
